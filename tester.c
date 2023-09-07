@@ -38,6 +38,7 @@ void test(FILE* stream)
                 break;
             case 0:
                 printf("Ожидалось: %d %g %g ", TestCoefficients.n_roots, TestCoefficients.x1, TestCoefficients.x2);
+                
                 printf("Получилось: %d %g %g\n", EqCoefficients.n_roots, EqCoefficients.x1, EqCoefficients.x2);
                 break;
             default:
